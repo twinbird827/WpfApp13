@@ -1,0 +1,43 @@
+﻿<Controls:MetroWindow x:Class="WpfApp13.MainWindow"
+                      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                      xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+                      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+                      xmlns:local="clr-namespace:WpfApp13"
+                      mc:Ignorable="d"
+                      xmlns:Controls="http://metro.mahapps.com/winfx/xaml/controls"
+                      xmlns:iconPacks="http://metro.mahapps.com/winfx/xaml/iconpacks"
+                      Title="MainWindow" Height="450" Width="800">
+    <DockPanel>
+        <StackPanel DockPanel.Dock="Top" Orientation="Horizontal">
+
+            <Button Content="開く" Width="80" Margin="9" FontSize="12" />
+
+            <Button Margin="9" FontSize="12" Width="80" Padding="0">
+                <Grid HorizontalAlignment="Stretch" Margin="0">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="auto" />
+                        <ColumnDefinition Width="*" />
+                    </Grid.ColumnDefinitions>
+                    <iconPacks:PackIconMaterial Grid.Column="0" Kind="FolderOpen" Foreground="SandyBrown" />
+                    <StackPanel Grid.Column="1"  >
+                        <TextBlock Text=" 開く" />
+                    </StackPanel>
+                </Grid>
+            </Button>
+
+            <Button Margin="9" FontSize="12">
+                <Button.Content>
+                    <iconPacks:PackIconMaterial Kind="FolderOpen" VerticalAlignment="Center" Foreground="SandyBrown" >
+                    </iconPacks:PackIconMaterial>
+                </Button.Content>
+                <ToolTipService.ToolTip>
+                    <ToolTip Content="開く" />
+                </ToolTipService.ToolTip>
+            </Button>
+
+        </StackPanel>
+
+        <StackPanel />
+    </DockPanel>
+</Controls:MetroWindow>
