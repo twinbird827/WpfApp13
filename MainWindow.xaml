@@ -36,6 +36,83 @@
                 </ToolTipService.ToolTip>
             </Button>
 
+            <Button Margin="9" FontSize="12">
+                <Button.Content>
+                    <iconPacks:PackIconMaterial Kind="FilePdfBox" VerticalAlignment="Center" Foreground="DarkRed" >
+                    </iconPacks:PackIconMaterial>
+                </Button.Content>
+                <ToolTipService.ToolTip>
+                    <ToolTip Content="DarkRed" />
+                </ToolTipService.ToolTip>
+            </Button>
+
+            <Button Margin="9" FontSize="12">
+                <Button.Content>
+                    <iconPacks:PackIconMaterial Kind="FilePdfBox" VerticalAlignment="Center" Foreground="IndianRed" >
+                    </iconPacks:PackIconMaterial>
+                </Button.Content>
+                <ToolTipService.ToolTip>
+                    <ToolTip Content="IndianRed" />
+                </ToolTipService.ToolTip>
+            </Button>
+
+            <Button Margin="9" FontSize="12">
+                <Button.Content>
+                    <iconPacks:PackIconMaterial Kind="FilePdfBox" VerticalAlignment="Center" Foreground="MediumVioletRed" >
+                    </iconPacks:PackIconMaterial>
+                </Button.Content>
+                <ToolTipService.ToolTip>
+                    <ToolTip Content="MediumVioletRed" />
+                </ToolTipService.ToolTip>
+            </Button>
+
+            <Button Margin="9" FontSize="12">
+                <Button.Content>
+                    <iconPacks:PackIconMaterial Kind="FilePdfBox" VerticalAlignment="Center" Foreground="OrangeRed" >
+                    </iconPacks:PackIconMaterial>
+                </Button.Content>
+                <ToolTipService.ToolTip>
+                    <ToolTip Content="OrangeRed" />
+                </ToolTipService.ToolTip>
+            </Button>
+
+            <Button Margin="9" FontSize="12">
+                <Button.Content>
+                    <iconPacks:PackIconMaterial Kind="FilePdfBox" VerticalAlignment="Center" Foreground="Crimson" >
+                    </iconPacks:PackIconMaterial>
+                </Button.Content>
+                <ToolTipService.ToolTip>
+                    <ToolTip Content="Crimson" />
+                </ToolTipService.ToolTip>
+            </Button>
+
+            <Button Margin="9" FontSize="12">
+                <Button.Content>
+                    <iconPacks:PackIconMaterial Kind="FilePdfBox" VerticalAlignment="Center" Foreground="Red" >
+                    </iconPacks:PackIconMaterial>
+                </Button.Content>
+                <ToolTipService.ToolTip>
+                    <ToolTip Content="Red" />
+                </ToolTipService.ToolTip>
+            </Button>
+
+            <iconPacks:PackIconMaterial Margin="9" FontSize="12" Kind="FilePdf" VerticalAlignment="Center" Foreground="Red" >
+            </iconPacks:PackIconMaterial>
+            <iconPacks:PackIconMaterial Margin="9" FontSize="12" Kind="FileDocument" VerticalAlignment="Center" Foreground="Silver" >
+            </iconPacks:PackIconMaterial>
+            <iconPacks:PackIconMaterial Margin="9" FontSize="12" Kind="DatabaseExport" VerticalAlignment="Center" Foreground="Silver" >
+            </iconPacks:PackIconMaterial>
+
+            <Button Margin="9" FontSize="12">
+                <Button.Content>
+                    <iconPacks:PackIconMaterial Kind="FilePdfBox" VerticalAlignment="Center" Foreground="Firebrick" >
+                    </iconPacks:PackIconMaterial>
+                </Button.Content>
+                <ToolTipService.ToolTip>
+                    <ToolTip Content="Firebrick" />
+                </ToolTipService.ToolTip>
+            </Button>
+
         </StackPanel>
 
         <StackPanel />
